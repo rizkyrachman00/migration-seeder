@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    background-color: #bdbbbb;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    text-align: left;
+    max-width: 90%; 
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 100vh; 
+}
+
+.form-container {
+    background-color: #9d9696;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    margin: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label, select, input, textarea {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #1fe7ea;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #72f3f5;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+
+p {
+    margin-bottom: -10px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textarea-label {
+    font-size: 14px;
+}
+
+input {
+    width: 30%;
+}
+
+.form-label{
+    margin-left: -5px;
+}
+
+.textarea-right {
+    float: right; 
+    width: 60%; 
+    margin-top: -155px;
+}
+
+textarea {
+    width: 50%; 
+    height: 30em;
+}
+
+::placeholder {
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+

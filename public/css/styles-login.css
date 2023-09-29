@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-color: #959090;
+}
+
+.header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.logo {
+    width: 5%;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+}
+
+.header h1 {
+    margin: 0;
+    display: inline-block;
+    font-size: 35px;
+}
+
+.judul {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px auto; 
+    margin-top: 140px;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #fff;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+label, input, button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #1fe7ea;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: -2px;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: #72f3f5;
+}
+
+body {
+    font-family: 'Cursive';
+}
+
+.judul h2 {
+    text-align: center;
+    margin: 0;
+}
+
+
+
+
